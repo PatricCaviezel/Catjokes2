@@ -15,3 +15,6 @@ function ajax_get(url, callback) {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
+function refresh() {
+    window.location = window.location;
+}
