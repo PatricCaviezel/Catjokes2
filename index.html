@@ -17,6 +17,7 @@
             <button onclick="refresh();">Refresh</button>
         </center>
             <div id="joke">Text</div>
+            <div id="fact"></div>
         <script>
             ajax_get('https://api.thecatapi.com/v1/images/search?size=full', function(data) {
                 image = document.getElementById("image");
@@ -24,10 +25,11 @@
                 imgheight = image.setAttribute("height", "500px");
                 imgwidth = image.setAttribute("width", "auto");
             });
-            ajax_get('https://v2.jokeapi.dev/joke/Any?format=txt&type=single', function(data) {
-                var joke = document.getElementById("joke");
-                joke.innerText = data[o];
-                document.body.append("Test");
+            ajax_get('https://v2.jokeapi.dev/joke/Any?type=single', function(data) {
+                document.getElementById("joke").innerText = data["joke"];
+            });
+            ajax_get('https://uselessfacts.jsph.pl//random.json?language=en', function(data) {
+                document.getElementById("fact").innerText = data["text"];
             });
         </script>
     </body>
