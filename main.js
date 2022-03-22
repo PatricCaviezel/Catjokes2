@@ -18,3 +18,9 @@ function ajax_get(url, callback) {
 function refresh() {
     window.location = window.location;
 }
+function catselect() {
+    var finalcat = [];
+    var head = [];
+    var body = [];
+    var feet = [];
+}
