@@ -3,10 +3,29 @@ button {
     width: 75px;
     height: 50px;
     margin-bottom: 10px;
+    animation: colors 5s infinite;
+    color: azure;
 }
 button:hover {
     background-color: darkviolet;
     width: 65px;
     height:40px;
     margin-bottom: 20px;
+}
+button:active {
+    background-color: blueviolet;
+    width: 70px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+@keyframes colors {
+    0% {background-color:darkslategray;}
+    25% {background-color: darkcyan;}
+    50% {background-color: darkslategray;}
+    75% {background-color: darkcyan;}
+    100% {background-color: darkslategray;}
+}
+
+body {
+    background-image: url(/media/coolbackground.svg);
 }
