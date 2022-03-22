@@ -53,3 +53,20 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
+
+.All{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    padding: 2px;
+    justify-items: center;
+}
+#US{
+    border-style: dashed;
+    padding: 0.5rem 1.2rem 1.2rem 1.2rem;
+    background-color: white;
+}
+
+#title{
+    font-size: 50px;
+}
