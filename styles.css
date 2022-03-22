@@ -99,6 +99,11 @@ li a:hover:not(.active) {
     height: auto;
 }
 
+#cat {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
 .image {
     width: 50%;
     height: 100%;
