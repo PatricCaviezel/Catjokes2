@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-
-button {
+.button {
     width: 75px;
     height: 50px;
     margin-top: 10px;
@@ -8,12 +7,20 @@ button {
     color: azure;
     margin-bottom: 10px;
 }
-button:hover {
+.button1 {
+    width: 75px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: darkslategray;
+    color: azure;
+    margin-bottom: 10px;
+}
+.button:hover {
     width: 75px;
     height:50px;
     margin-top: 10px;
 }
-button:active {
+.button:active {
     width: 70px;
     height: 45px;
     margin-top: 15px;
@@ -25,12 +32,9 @@ button:active {
     75% {background-color: darkcyan;}
     100% {background-color: darkslategray;}
 }
-
 body {
     background-image: url(./media/coolbackground.svg);
 }
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -39,11 +43,9 @@ ul {
     background-color: #333;
     margin-bottom: 10px;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -51,12 +53,9 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover:not(.active) {
     background-color: #111;
 }
-
-
 .All{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -72,14 +71,24 @@ li a:hover:not(.active) {
     width: 50%;
     height: auto;
 }
-
+#title1{
+    color: #333;
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+}
+#titlemini{
+    color: #333;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+}
 #title{
     color: #333;
     font-family: 'Bungee', cursive;
     font-size: 50px;
     text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
 }
-
 .socials {
     text-align: center;
     display: block;
@@ -89,22 +98,20 @@ li a:hover:not(.active) {
     border-style: inset;
     border-color: darkmagenta;
 }
-
 .bigdiv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
-
 #ytlogo {
     width: 280px;
     height: auto;
 }
-
 #cat {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
+    left: 300px;
 }
 .image {
     width: 50%;
@@ -112,7 +119,6 @@ li a:hover:not(.active) {
     text-align: center;
     display: block;
 }
-
 .joke {
     width: 45%;
     height: 25%;
@@ -126,7 +132,6 @@ li a:hover:not(.active) {
     border-color: #111;
     margin-right: 5px;
 }
-
 .fact {
     width: 45%;
     height: 25%;
@@ -140,13 +145,11 @@ li a:hover:not(.active) {
     border-color: #111;
     margin-right: 5px;
 }
-
 img {
     height: 480px;
     width: auto;
     max-width: 100%;
 }
-
 .social {
     height: auto;
     width: auto;
