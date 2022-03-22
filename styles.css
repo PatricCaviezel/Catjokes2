@@ -69,6 +69,8 @@ li a:hover:not(.active) {
     border-color: darkmagenta;
     padding: 0.5rem 1.2rem 1.2rem 1.2rem;
     background-color: white;
+    width: 50%;
+    height: auto;
 }
 
 #title{
@@ -137,4 +139,15 @@ li a:hover:not(.active) {
     border-style: inset;
     border-color: #111;
     margin-right: 5px;
+}
+
+img {
+    height: 480px;
+    width: auto;
+    max-width: 100%;
+}
+
+.social {
+    height: auto;
+    width: auto;
 }
