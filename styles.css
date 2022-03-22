@@ -107,7 +107,7 @@ li a:hover:not(.active) {
 }
 
 .joke {
-    width: 50%;
+    width: 45%;
     height: 25%;
     text-align: center;
     display: block;
@@ -117,10 +117,11 @@ li a:hover:not(.active) {
     background-color: azure;
     border-style: inset;
     border-color: #111;
+    margin-right: 5px;
 }
 
 .fact {
-    width: 50%;
+    width: 45%;
     height: 25%;
     text-align: center;
     display: block;
@@ -130,4 +131,5 @@ li a:hover:not(.active) {
     background-color: azure;
     border-style: inset;
     border-color: #111;
+    margin-right: 5px;
 }
