@@ -4,6 +4,7 @@ button {
     margin-top: 10px;
     animation: colors 5s infinite;
     color: azure;
+    margin-bottom: 10px;
 }
 button:hover {
     width: 75px;
@@ -76,6 +77,8 @@ li a:hover:not(.active) {
     width: 300px;
     height: auto;
     background-color: azure;
+    border-style: inset;
+    border-color: darkmagenta;
 }
 
 .bigdiv {
@@ -89,3 +92,35 @@ li a:hover:not(.active) {
     height: auto;
 }
 
+.image {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: block;
+}
+
+.joke {
+    width: 50%;
+    height: 25%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    background-color: azure;
+    border-style: inset;
+    border-color: #111;
+}
+
+.fact {
+    width: 50%;
+    height: 25%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 350px;
+    background-color: azure;
+    border-style: inset;
+    border-color: #111;
+}
