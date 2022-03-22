@@ -52,3 +52,23 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
+
+.socials {
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: auto;
+    background-color: azure;
+}
+
+.bigdiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#ytlogo {
+    width: 280px;
+    height: auto;
+}
+
