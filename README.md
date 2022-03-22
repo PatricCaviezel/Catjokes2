@@ -1,8 +1,7 @@
 # Catjokes2
 
 ## Improved version of CatJokes
-
-## We used JavaScript instead of PHP this time
+We used JavaScript instead of PHP this time
 
 ### Contributors
 - Patric Caviezel

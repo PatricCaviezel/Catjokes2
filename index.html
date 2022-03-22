@@ -12,9 +12,10 @@
                 imgheight = image.setAttribute("height", "500px");
                 imgwidth = image.setAttribute("width", "auto");
             });
-            ajax_get('https://v2.jokeapi.dev/joke/Any', function(data) {
-                data[0]["joke"] = JSON.stringify(data[0]["joke"])
-                document.getElementById("joke").innerHTML = data[0]["joke"];
+            ajax_get('https://v2.jokeapi.dev/joke/Any?format=txt&type=single', function(data) {
+                joke = document.getElementById("joke");
+                joke.innerHTML = data[0];
+                document.body.append(joke);
             });
         </script>
         <center>
