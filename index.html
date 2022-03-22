@@ -5,15 +5,17 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <div>
-            <script>
-                ajax_get('https://api.thecatapi.com/v1/images/search?size=full', function(data) {
-                    document.getElementById("id").innerHTML = data[0]["id"];
-                    document.getElementById("url").innerHTML = data[0]["url"];
-                    var html = '<img src="' + data[0]["url"] + '">';
-                    document.getElementById("image").innerHTML = html;
-                });
-            </script>
-        </div>
+        <script>
+            ajax_get('https://api.thecatapi.com/v1/images/search?size=full', function(data) {
+                image = document.getElementById("image");
+                Setimg = image.setAttribute("src", data[0]["url"]);
+                imgheight = image.setAttribute("height", "500px");
+                imgwidth = image.setAttribute("width", "auto");
+            });
+        </script>
+        <div id="url"></div>
+        <center>
+            <img id="image" src="">
+        </center>
     </body>
 </html>
