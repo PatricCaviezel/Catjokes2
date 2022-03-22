@@ -10,19 +10,27 @@
             <li><a href="AboutUs.html">About us</a></li>
             <li><a href="Socials.html">Socials</a></li>
         </ul>
+        <div class="image">
         <center>
             <img id="image" src="">
         </center>
         <center>
             <button onclick="refresh();">Refresh</button>
         </center>
+        </div>
+        <div class="joke">
+            <h2>Joke:</h2>
             <div id="joke">Text</div>
+        </div>
+        <div class="fact">
+            <h2>Fact:</h2>
             <div id="fact"></div>
+        </div>
         <script>
             ajax_get('https://api.thecatapi.com/v1/images/search?size=full', function(data) {
                 image = document.getElementById("image");
                 Setimg = image.setAttribute("src", data[0]["url"]);
-                imgheight = image.setAttribute("height", "500px");
+                imgheight = image.setAttribute("height", "400px");
                 imgwidth = image.setAttribute("width", "auto");
             });
             ajax_get('https://v2.jokeapi.dev/joke/Any?type=single', function(data) {
