@@ -1,5 +1,10 @@
 # Catjokes2
 
-## Improved version of CatJokes 1
+## Improved version of CatJokes
 
-bitches be bitches
+## We used JavaScript instead of PHP this time
+
+### Contributors
+- Patric Caviezel
+- Jon Landa
+- Denis Meyer
