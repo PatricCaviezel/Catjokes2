@@ -30,8 +30,6 @@
             ajax_get('https://api.thecatapi.com/v1/images/search?size=full', function(data) {
                 image = document.getElementById("image");
                 Setimg = image.setAttribute("src", data[0]["url"]);
-                imgheight = image.setAttribute("height", "400px");
-                imgwidth = image.setAttribute("width", "auto");
             });
             ajax_get('https://v2.jokeapi.dev/joke/Any?type=single', function(data) {
                 document.getElementById("joke").innerText = data["joke"];
