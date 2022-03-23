@@ -1,0 +1,15 @@
+Txispa: Fett, Hungrig, Schlafen, klein, Frühaufsteher
+Smietz: Diva, Alt, Verwirrt, Verlangt viel Aufmerksamkeit
+Gin: Klein, ängstlich, verspielt, hoe
+Chilli: Flauschig, Alles egal, Mörder
+Lumpi: Fett, Flauschig, Hyperaktiv, Liebesbedürftig, Faul
+
+Fragen:
+1. Wie lange Schläfst du? (Lang, normal, immer wieder ein wenig, Wenig, nie)
+2. Wie wählerisch bist du beim Essen? (Sehr, ein wenig, ziemlich, gar nicht)
+3. Was trifft auf dich zu? (Diva, Hyperaktiv, ängstlich, brutal)
+4. Bist du der Jäger oder der Gejagte? (Jäger, kommt darauf an, Gejagte, Ich schaue lieber zu)
+5. Bist du laut? (Extrem, in Notsituationen, nur am Morgen, gar nicht)
+6. Gehst du oft Raus? (Oft, nur wenn ich muss, immer, nie)
+7. Bist du alt? (Extrem, definitiv, eher nicht, nö)
+8. 
