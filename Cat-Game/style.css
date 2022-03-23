@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    height: 97%;
+    width: 99%;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    background-color: dimgray;
+    transition: 5000ms;
+}
+
+html {
+    height: 99%;
+    width: 99%;
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+#adler{
+    position: absolute;
+    top: 100px;
+    /* left: 100px; */
+    /* right: 0px; */
+    height: 100px;
+}
+
+#GameContent{
+    margin-left: 10%;
+    position: relative;
+    text-align:start;
+    background-color: rgb(43, 43, 43);
+    transition: 5000ms;
+    height: 40%;
+    width: 80%;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+
+}
+#cat {
+    position: absolute;
+    width: 10%;
+    left: 10px;
+    width: 10%;
+}
+
+#Score{
+    font-size: x-large;
+}
+
+.bush {
+    position: absolute;
+    display: none;
+    height: 100px;
+    bottom: 0px;
+    height: 20%;
+    width: 5%;
+}
+
+.maus {
+    position: absolute;
+    display: none;
+    height: 100px;
+    bottom: -3%;
+    height: 20%;
+    width: 5%;
+}
+
+.adler {
+    position: absolute;
+    display: none;
+    height: 100px;
+    bottom: 0px;
+    height: 20%;
+    width: 10%;
+}
+
+.spatz {
+    position: absolute;
+    display: none;
+    height: 100px;
+    bottom: 0px;
+    height: 10%;
+    width: 5%;
+}
+
+#Mond {
+    position: absolute;
+    display: none;
+    left: 60%;
+    height: 65%;
+    width: auto;
+}
+
+#Sun {
+    position: absolute;
+    display: none;
+    left: 60%;
+    height: 65%;
+    width: auto;
+}
+
+.star {
+    position: absolute;
+    top: 0%;
+    height: 35%;
+    display: none;
+    left: 0%;
+}
+
+#bodä {
+    bottom: 0%;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+

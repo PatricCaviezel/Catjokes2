@@ -1,0 +1,63 @@
+HTML aufsetzen
+Start mit [Space]
+Bewegung eines Blockes
+
+Platzhalter für Hindernisse erstellen
+Random Hindernisse erscheinen
+
+Spring-Event mit [Space]
+Springen bei Spring-Event
+
+Boden-Hindernisse positionieren
+Bewegung auf Boden-Hindernisse übertragen
+
+Hit-Box erstellen
+Hit-Box auf Boden-Hindernisse übertragen
+
+Sneak-Event mit [Arrow down]
+Sneaken bei Sneak-Event
+
+Luft-Hindernisse positionieren
+Bewegung auf Luft-Hindernisse übertragen
+
+Hit-Box auf Luft-Hindernisse übertragen
+
+unendlich Weltengenerierung
+
+Busch zeichnen
+Boden zeichnen
+Maus zeichnen
+Adler zeichnen
+Spatz zeichnen
+
+CSS machen
+
+Punkte zählen
+Punkte aktualisieren
+
+Punkte-Boost bei Punkte-Boost-Event
+
+Doppelsprung verhindern
+Bewegung auf Boden übertragen
+Fliegende Hindernisse haben verschiedene Höhen
+
+
+
+Game-Over bei Sterbe-Event
+Bei Restart Score Zurücksetzen
+Restart bei [Space]
+
+Cat-API einbinden
+Katzen herumfliegen
+
+
+Schneller werden bei höheren Punkten
+
+Bei Sneak-Event schneller zu Boden gehen bei Sprung
+Highscore speichern
+Tageszyklus
+Hintergrund zeichnen
+Verschiedene Büsche zeichnen
+Random Verschiedene Büsche
+Animation hinzufügen
+Hintergrund Bewegungen
