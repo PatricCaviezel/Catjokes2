@@ -3,7 +3,7 @@ function hideSections() {
     const childern = parent.childNodes;
     childern.forEach(element => {
         element.style.display = "none";
-    });    
+    });
 }
 
 function showSection(element) {
