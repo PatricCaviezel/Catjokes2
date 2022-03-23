@@ -14,5 +14,5 @@ On This Website you can create your own little cat buddy, view cute pictures of 
 ## Contributors
 
 - [Patric Caviezel](https://github.com/PatricCaviezel) (Most of the JavaScript)
-- [Jon Landa (Mostly](https://github.com/jonlanda) CSS and HTML)
+- [Jon Landa](https://github.com/jonlanda)(Mostly CSS and HTML)
 - [Denis Meyer](https://github.com/meyden) (Some CSS and HTML)
