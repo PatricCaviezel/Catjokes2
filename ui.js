@@ -87,3 +87,15 @@ let data = await fetch('/data.json')
 UIfromData().then(() => {
     hideSections();
 });
+
+function catName() {
+    let catname = document.getElementById("catname");
+    catname.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            let namecat = catname.value;
+            let p = document.createElement("p");
+            p.innerText = namecat;
+            document.body.append(p);        }
+    });
+
+}
