@@ -90,12 +90,12 @@ UIfromData().then(() => {
 
 function catName() {
     let catname = document.getElementById("catname");
+    let namecat = catname.value;
+    let p = document.createElement("p");
     catname.addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
-            let namecat = catname.value;
-            let p = document.createElement("p");
             p.innerText = namecat;
-            document.body.append(p);        }
+        }
     });
-
+    document.body.append(p);
 }
