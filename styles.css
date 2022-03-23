@@ -174,3 +174,10 @@ label {
         font-size: 30px;
         text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
 }
+#apis a{
+    color: #111;
+}
+#apis a:hover{
+    color: cadetblue;
+    font-size: 120%;
+}
