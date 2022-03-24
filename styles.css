@@ -43,8 +43,7 @@ ul {
     background-color: #333;
     float: left;
     padding: 0;
-    margin: 0;
-    margin-bottom: 16px;
+    margin: 0 auto;
 }
 li {
     float: left;
@@ -91,6 +90,7 @@ li a:hover:not(.active) {
     font-family: 'Bungee', cursive;
     font-size: 50px;
     text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+    margin-top: 0;
 }
 .socials {
     text-align: center;
@@ -177,6 +177,9 @@ label {
         font-family: 'Bungee', cursive;
         font-size: 30px;
         text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+}
+#apis h1{
+    margin-top: 0;
 }
 #apis a{
     color: #111;
