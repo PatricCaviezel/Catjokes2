@@ -34,13 +34,17 @@
 }
 body {
     background-image: url(./media/coolbackground.svg);
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style-type: none;
-    width: 97.1%;
-    overflow: hidden;
+    width: 100%;
     background-color: #333;
-    margin-bottom: 10px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
 }
 li {
     float: left;
