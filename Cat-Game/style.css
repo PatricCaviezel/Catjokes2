@@ -4,6 +4,7 @@
 body {
     height: 97%;
     width: 99%;
+    margin: 0;
     overflow-y:hidden;
     overflow-x: hidden;
     background-color: dimgray;
@@ -130,12 +131,12 @@ h1 {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    margin-bottom: 10px;
+        list-style-type: none;
+        width: 100%;
+        background-color: #333;
+        float: left;
+        padding: 0;
+        margin: 0 auto;
 }
 li {
     float: left;
