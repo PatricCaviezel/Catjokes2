@@ -1,5 +1,9 @@
 # Catjokes2
 
+## Notice
+
+This Project is still work in progress. If you have anyideas for improvement you can fork our projekt and make a merge request.
+
 ## Table Of Contents
 
 - [Description](https://github.com/PatricCaviezel/catjokes2#description)
