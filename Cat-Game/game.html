@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cat-Game</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/AboutUs.html">About us</a></li>
-            <li><a href="/Socials.html">Socials</a></li>
-            <li><a href="/Cat-Game/game.html">Game</a></li>
-        </ul>
-        <h1  class="center">Cat-Game</h1>
-        <div class="center" id="Score">Score: 0</div>
-        <div id="GameContent">
-            <img id="Mond" src="./character/Background/Mond.png" alt="Mond">
-            <img id="Sun" src="./character/Background/Sun.png" alt="Sonne">
-            <img class="star" src="./character/Background/Stern.png" alt="Stern">
-            <img class="star" src="./character/Background/Stern.png" alt="Stern">
-            <img class="star" src="./character/Background/Stern2.png" alt="Stern">
-            <img class="star" src="./character/Background/Stern2.png" alt="Stern">
-            <img class="star" src="./character/Background/Stern3.png" alt="Stern">
-            <img class="star" src="./character/Background/Stern3.png" alt="Stern">
-            <img class="star" src="./character/Background/Stern.png" alt="Stern">
 
-            <img id="bodä" src="./character/Background/boden2.png" alt="Bodä">
-            <img id="spatz0" class="spatz" src="./character/Birds/Gbird1.png" alt="spatz">
-            <img id="spatz1" class="spatz" src="./character/Birds/Gbird1.png" alt="spatz">
-            <img id="spatz2" class="spatz" src="./character/Birds/Gbird1.png" alt="spatz">
-            <img id="adler0" class="adler" src="./character/Birds/bad-bird1.png" alt="adler">
-            <img id="adler1" class="adler" src="./character/Birds/bad-bird1.png" alt="adler">
-            <img id="adler2" class="adler" src="./character/Birds/bad-bird1.png" alt="adler">
-            <img class="maus" src="./character/maus/mousegespiegelt.png" alt="maus">
-            <img class="maus" src="./character/maus/mousegespiegelt.png" alt="maus">
-            <img class="maus" src="./character/maus/mousegespiegelt.png" alt="maus">
-            <img class="bush" src="./character/bush/bush2.png" alt="Busch">
-            <img class="bush" id="bush1" src="./character/bush/bush3.png" alt="Busch">
-            <img class="bush" src="./character/bush/bush2.png" alt="Busch">
-            <img id="cat" src="./character/Cat/cat-walk1.png" alt="Cat">
-        </div>
-        <center>
-            <buttoni id="restartButton">RESTART [SPACE]</button>
-        </center>
-        <script src="./catController.js" ></script>
-        <script src="./bushMove.js"></script>
-        <script src="./spatzMove.js"></script>
-        <script src="./mausMove.js"></script>
-        <script src="./adlerMove.js"></script>
-        <script src="./elseController.js" ></script>
-        <script src="./score.js">score();</script>
-        <script src="./TagesZyklus.js"></script>
-        <script src="restart.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat-Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/apis.html">APIs</a></li>
+        <li><a href="/AboutUs.html">About us</a></li>
+        <li><a href="/Socials.html">Socials</a></li>
+        <li><a href="/Cat-Game/game.html">Game</a></li>
+    </ul>
+    <h1 class="center">Cat-Game</h1>
+    <div class="center" id="Score">Score: 0</div>
+    <div id="GameContent">
+        <img id="Mond" src="./character/Background/Mond.png" alt="Mond">
+        <img id="Sun" src="./character/Background/Sun.png" alt="Sonne">
+        <img class="star" src="./character/Background/Stern.png" alt="Stern">
+        <img class="star" src="./character/Background/Stern.png" alt="Stern">
+        <img class="star" src="./character/Background/Stern2.png" alt="Stern">
+        <img class="star" src="./character/Background/Stern2.png" alt="Stern">
+        <img class="star" src="./character/Background/Stern3.png" alt="Stern">
+        <img class="star" src="./character/Background/Stern3.png" alt="Stern">
+        <img class="star" src="./character/Background/Stern.png" alt="Stern">
+
+        <img id="bodä" src="./character/Background/boden2.png" alt="Bodä">
+        <img id="spatz0" class="spatz" src="./character/Birds/Gbird1.png" alt="spatz">
+        <img id="spatz1" class="spatz" src="./character/Birds/Gbird1.png" alt="spatz">
+        <img id="spatz2" class="spatz" src="./character/Birds/Gbird1.png" alt="spatz">
+        <img id="adler0" class="adler" src="./character/Birds/bad-bird1.png" alt="adler">
+        <img id="adler1" class="adler" src="./character/Birds/bad-bird1.png" alt="adler">
+        <img id="adler2" class="adler" src="./character/Birds/bad-bird1.png" alt="adler">
+        <img class="maus" src="./character/maus/mousegespiegelt.png" alt="maus">
+        <img class="maus" src="./character/maus/mousegespiegelt.png" alt="maus">
+        <img class="maus" src="./character/maus/mousegespiegelt.png" alt="maus">
+        <img class="bush" src="./character/bush/bush2.png" alt="Busch">
+        <img class="bush" id="bush1" src="./character/bush/bush3.png" alt="Busch">
+        <img class="bush" src="./character/bush/bush2.png" alt="Busch">
+        <img id="cat" src="./character/Cat/cat-walk1.png" alt="Cat">
+    </div>
+    <center>
+        <buttoni id="restartButton">RESTART [SPACE]</button>
+    </center>
+    <script src="./catController.js"></script>
+    <script src="./bushMove.js"></script>
+    <script src="./spatzMove.js"></script>
+    <script src="./mausMove.js"></script>
+    <script src="./adlerMove.js"></script>
+    <script src="./elseController.js"></script>
+    <script src="./score.js">score();</script>
+    <script src="./TagesZyklus.js"></script>
+    <script src="restart.js"></script>
+</body>
+
 </html>

@@ -34,14 +34,16 @@
 }
 body {
     background-image: url(./media/coolbackground.svg);
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    width: 100%;
     background-color: #333;
-    margin-bottom: 10px;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
 }
 li {
     float: left;
@@ -88,6 +90,7 @@ li a:hover:not(.active) {
     font-family: 'Bungee', cursive;
     font-size: 50px;
     text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+    margin-top: 0;
 }
 .socials {
     text-align: center;
@@ -153,4 +156,35 @@ img {
 .social {
     height: auto;
     width: auto;
+}
+
+#result {
+    width: 35%;
+    height: 28%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 200px;
+    background-color: azure;
+    border-style: inset;
+    border-color: #111;
+    margin-right: 5px;
+    font-size: 50px;
+}
+
+label {
+        color: #333;
+        font-family: 'Bungee', cursive;
+        font-size: 30px;
+        text-shadow: 2px 2px 5px rgb(163, 163, 163), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+}
+#apis h1{
+    margin-top: 0;
+}
+#apis a{
+    color: #111;
+}
+#apis a:hover{
+    color: cadetblue;
+    font-size: 120%;
 }
