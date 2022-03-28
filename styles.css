@@ -160,7 +160,8 @@ img {
 
 #result {
     width: 35%;
-    height: 28%;
+    height: 30%;
+    margin-top: 65px;
     text-align: center;
     display: block;
     position: absolute;
@@ -170,6 +171,7 @@ img {
     border-color: #111;
     margin-right: 5px;
     font-size: 50px;
+    left: 33%;
 }
 
 label {
@@ -187,4 +189,8 @@ label {
 #apis a:hover{
     color: cadetblue;
     font-size: 120%;
+}
+#cattitle{
+font-size: 25px;
+text-align: center;
 }
