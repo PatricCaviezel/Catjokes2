@@ -2,7 +2,7 @@
 
 ## Notice
 
-This Project is still work in progress. If you have anyideas for improvement you can fork our projekt and make a merge request.
+This Project is still work in progress. If you have any ideas for improvement you can fork our projekt and make a merge request.
 
 ## Table Of Contents
 
