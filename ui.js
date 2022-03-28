@@ -88,14 +88,3 @@ UIfromData().then(() => {
     hideSections();
 });
 
-function catName() {
-    let catname = document.getElementById("catname");
-    let namecat = catname.value;
-    let p = document.createElement("p");
-    catname.addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            p.innerText = namecat;
-        }
-    });
-    document.body.append(p);
-}
