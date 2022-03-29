@@ -3,7 +3,7 @@
 
 body {
     height: 97%;
-    width: 99%;
+    width: 100%;
     margin: 0;
     overflow-y:hidden;
     overflow-x: hidden;
@@ -12,7 +12,7 @@ body {
 
 html {
     height: 99%;
-    width: 99%;
+    width: 100%;
     overflow-y:hidden;
     overflow-x: hidden;
 }
