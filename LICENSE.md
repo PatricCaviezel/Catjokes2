@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Patric Caviezel and Jon Landa 
+Copyright (c) 2022 Patric Caviezel, Jon Landa and Denis Meyer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
