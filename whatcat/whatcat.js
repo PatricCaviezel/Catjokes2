@@ -2,11 +2,11 @@ const getjson = async function() {
     let data = await fetch('./questions.json')
     .then(response => response.json())
     .then(data => {
-        toarray(data);
+        display(data);
     });
 }
 
-function toarray(data) {
+function display(data) {
     for(var key in data.Fragen) {
         let div = document.getElementById("whatcat");
         for(let i = 0; i < Object.keys(data).length; i++) {
