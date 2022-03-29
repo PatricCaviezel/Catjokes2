@@ -96,7 +96,7 @@ li a:hover:not(.active) {
     text-align: center;
     display: block;
     width: 300px;
-    height: auto;
+    height: 500px;
     background-color: azure;
     border-style: inset;
     border-color: darkmagenta;
@@ -106,7 +106,12 @@ li a:hover:not(.active) {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
+#instalogo{
+    width: 280px;
+    height: auto;
+}
 #ytlogo {
+    margin-top: 58px;
     width: 280px;
     height: auto;
 }
