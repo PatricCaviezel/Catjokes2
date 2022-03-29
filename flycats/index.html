@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <script src="flycats.js"></script>
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
     <ul>
         <li><a href="../catjokes/index.html">Home</a></li>
@@ -17,36 +19,80 @@
         <li><a href="../socials/index.html">Socials</a></li>
         <li><a href="../Cat-Game/game.html">Game</a></li>
         <li><a href="index.html">Flying Cats</a></li>
+        <li><a href="../whatcat/index.html">Which Cat</a></li>
     </ul>
 
     <style>
         #flycat1 {
-    height: 200px;
-    width: auto;
-    position: absolute;
-    display: none;
-}
+            height: 200px;
+            width: auto;
+            position: absolute;
+            display: none;
+        }
 
-#flycat2 {
-    height: 200px;
-    width: auto;
-    position: absolute;
-    display: none;
-}
+        #flycat2 {
+            height: 200px;
+            width: auto;
+            position: absolute;
+            display: none;
+        }
 
-@keyframes catmove {
-    0%   {left:0%; top:0%;}
-    10%   {left:0%; top:50%;}
-    20%   {left:0%; top:100%;}
-    30%   {left:20%; top:90%;}
-    40%   {left:40%; top:40%;}
-    50%   {left:80%; top:30%;}
-    60%   {left:38%; top:47%;}
-    70%   {left:57%; top:78%;}
-    80%   {left:99%; top:50%;}
-    90%   {left:15%; top:24%;}
-    100%   {left:69%; top:69%;}
-}
+        @keyframes catmove {
+            0% {
+                left: 0%;
+                top: 0%;
+            }
+
+            10% {
+                left: 0%;
+                top: 50%;
+            }
+
+            20% {
+                left: 0%;
+                top: 100%;
+            }
+
+            30% {
+                left: 20%;
+                top: 90%;
+            }
+
+            40% {
+                left: 40%;
+                top: 40%;
+            }
+
+            50% {
+                left: 80%;
+                top: 30%;
+            }
+
+            60% {
+                left: 38%;
+                top: 47%;
+            }
+
+            70% {
+                left: 57%;
+                top: 78%;
+            }
+
+            80% {
+                left: 99%;
+                top: 50%;
+            }
+
+            90% {
+                left: 15%;
+                top: 24%;
+            }
+
+            100% {
+                left: 69%;
+                top: 69%;
+            }
+        }
     </style>
     <center>
         <h1 id="title">Let Cats fly around</h1>
@@ -56,4 +102,5 @@
     <img src="../media/flycat1.png" id="flycat1">
     <img src="../media/flycat2.png" id="flycat2">
 </body>
+
 </html>
